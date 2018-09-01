@@ -5,10 +5,10 @@
 You will need to push your image to a registry. If you have not done so, use the following commands to tag and push the images:
 
 ```
-$ docker image tag mygateway TestMicroSrvc3/mygateway
-$ docker push TestMicroSrvc3/mygateway
-$ docker image tag myservice1 TestMicroSrvc3/myservice1
-$ docker push TestMicroSrvc3/myservice1
+$ docker image tag mygateway test-micro-srvc-3/mygateway
+$ docker push test-micro-srvc-3/mygateway
+$ docker image tag myservice1 test-micro-srvc-3/myservice1
+$ docker push test-micro-srvc-3/myservice1
 ```
 
 ## Deployment

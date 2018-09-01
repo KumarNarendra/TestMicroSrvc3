@@ -33,18 +33,6 @@
       "de",
       "hi"
     ],
-    "skipClient": true,
-    "appsFolders": [
-      "myGateway",
-      "myService1"
-    ],
-    "directoryPath": "../",
-    "dockerRepositoryName": "TestMicroSrvc3",
-    "dockerPushCommand": "docker push",
-    "kubernetesNamespace": "default",
-    "kubernetesServiceType": "LoadBalancer",
-    "monitoring": "elk",
-    "istio": "no",
-    "istioRoute": false
+    "skipClient": true
   }
 }

@@ -1,0 +1,18 @@
+{
+  "generator-jhipster": {
+    "appsFolders": [
+      "myGateway",
+      "myService1"
+    ],
+    "directoryPath": "../",
+    "serviceDiscoveryType": "consul",
+    "jwtSecretKey": "e15619a01c7c9efd340c7edba1d66ff2e6545843",
+    "dockerRepositoryName": "test-micro-srvc-3",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "default",
+    "kubernetesServiceType": "LoadBalancer",
+    "monitoring": "elk",
+    "istio": "no",
+    "istioRoute": false
+  }
+}
