@@ -124,11 +124,11 @@ spec:
               key: path.logs
         resources:
           requests:
-            memory: "256Mi"
-            cpu: "200m"
+            memory: "1024Mi"
+            cpu: "800m"
           limits:
-            memory: "512Mi"
-            cpu: "400m"
+            memory: "2048Mi"
+            cpu: "1600m"
         ports:
         - containerPort: 9300
           name: transport
@@ -262,11 +262,11 @@ spec:
               key: path.logs
         resources:
           requests:
-            memory: "256Mi"
-            cpu: "200m"
-          limits:
             memory: "512Mi"
             cpu: "400m"
+          limits:
+            memory: "1024Mi"
+            cpu: "800m"
         ports:
         - containerPort: 9300
           name: transport
@@ -393,11 +393,11 @@ spec:
               key: path.logs
         resources:
           requests:
-            memory: "256Mi"
-            cpu: "200m"
-          limits:
             memory: "512Mi"
             cpu: "400m"
+          limits:
+            memory: "1024Mi"
+            cpu: "800m"
         ports:
         - containerPort: 9300
           name: transport
